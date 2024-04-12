@@ -20,7 +20,8 @@ $nome_completo= "$nome $cognome"
 
 <body>
 <div class="container">
-<a href="ricevo-get.php"></a>
+
+<a href="ricevo-get.php">vai a ricevo get</a>
 
 <h5> Ciao sono <?php echo $nome_completo ?>Vai a ricevo Get</h5>
 </div>
