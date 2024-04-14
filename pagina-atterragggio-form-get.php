@@ -1,9 +1,10 @@
 <!-- questo è un paragrafo php -->
 <?php
 
-$nome = $_GET['nome'];
-$cognome = $_GET['cognome']
-
+$paragrafo = $_GET['paragrafo'];
+$parolacensurata = $_GET['parolacensurata'];
+// la parola da censurare è ipsum
+$paroladacambiare = str_replace("ipsum", "***", $paragrafo );
 ?>
 
 
@@ -19,8 +20,9 @@ $cognome = $_GET['cognome']
 </head>
 <body>
   <div class="container my-5">
-    <h1>nome: <?php echo $nome ?> </h1>
-    <h1>cognome: <?php echo $cognome ?> </h1>
+    <h1>paragrafo: <?php echo $paragrafo ?> </h1>
+    <h1>paragrafo con censura: <?php echo $paroladacambiare ?> </h1>
+  
   </div>
 </body>
 </html>

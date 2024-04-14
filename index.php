@@ -1,8 +1,9 @@
 <?php
-$nome= 'Ilaria';
-$cognome= 'Guarnieri';
+$paragrafo= 'Ilaria';
+// $cognome= 'Guarnieri';
+$parolacensurata = '';
 
-$nome_completo= "$nome $cognome"
+// $nome_completo= "$nome $cognome";
 ?>
 
 
@@ -23,7 +24,7 @@ $nome_completo= "$nome $cognome"
 
 <a href="ricevo-get.php">vai a ricevo get</a>
 
-<h5> Ciao sono <?php echo $nome_completo ?>Vai a ricevo Get</h5>
+<h5> Ciao sono <?php echo $nome_completo ?> Vai a ricevo Get</h5>
 </div>
 </body>
 
