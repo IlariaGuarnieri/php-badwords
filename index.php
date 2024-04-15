@@ -1,10 +1,9 @@
-<?php
-$paragrafo= 'Ilaria';
-// $cognome= 'Guarnieri';
-$parolacensurata = '';
 
-// $nome_completo= "$nome $cognome";
-?>
+<!-- // $paragrafo= 'Ilaria';
+// $cognome= 'Guarnieri'; -->
+<!-- // $parolacensurata = '';
+
+// $nome_completo= "$nome $cognome"; -->
 
 
 <!DOCTYPE html>
@@ -21,10 +20,14 @@ $parolacensurata = '';
 
 <body>
 <div class="container">
+  <form action="censura.php" method="POST">
+  <input type="text" name="badword" placeholder="parola da censurare">
+  <textarea name="paragrafo" id="" cols="30" rows="10"></textarea>
+  <button class="btn btn-primary ">invia</button>
+  </form>
 
-<a href="ricevo-get.php">vai a ricevo get</a>
-
-<h5> Ciao sono <?php echo $nome_completo ?> Vai a ricevo Get</h5>
+<!-- <a href="ricevo-get.php">vai a ricevo get</a> -->
+<!-- <h5> Ciao sono Vai a ricevo Get</h5> -->
 </div>
 </body>
 
